@@ -1,7 +1,7 @@
 # Email slicer project
 
 # declare a variable to store user input
-# remove leading 
+# remove inadvertent leading and trailing whitespace using the strip() function
 # The user may accidentally input spaces before or after their email address.
 # We can utilize the strip string method 'strip()' to remove unwanted spaces.
 
