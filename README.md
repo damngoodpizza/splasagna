@@ -28,3 +28,9 @@ tcping.exe is a console application that operates similarly to 'ping', however i
 https://github.com/jorisschellekens/borb-examples
 Good example of Markdown usage that I stumbled upon.
 
+https://www.geeksforgeeks.org/
+Coding articles and reference.
+
+
+
+
