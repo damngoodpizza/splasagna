@@ -22,3 +22,9 @@ Kaggle is an online community of data scientists and machine learning practition
 models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data
 science challenges.
 
+https://www.elifulkerson.com/projects/tcping.php
+tcping.exe is a console application that operates similarly to 'ping', however it works over a tcp port.
+
+https://github.com/jorisschellekens/borb-examples
+Good example of Markdown usage that I stumbled upon.
+
