@@ -9,6 +9,9 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 Self-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.
 This is a list of Free Software network services and web applications which can be hosted locally. Non-Free software is listed on the Non-Free page.
 
+https://github.com/vinta/awesome-python#readme
+A curated list of awesome Python frameworks, libraries, software and resources.
+
 https://exercism.org/
 Develop fluency in 55 programming languages with our unique blend of learning, practice and mentoring. Exercism is fun, effective and 100% free, forever.
 
