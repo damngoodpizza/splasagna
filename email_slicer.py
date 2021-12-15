@@ -15,7 +15,7 @@ domain = email[email.index("@") + 1 :]
 
 # NOTE: Since the introduction of f-strings in Python 3.6, the correct way to
 # do this would be:
-output = f"Your username is [{user}] and your domain name is [{domain}]"
+output = f"Your username is {user} and your domain name is {domain}"
 
 # Display output message
 print(output)
