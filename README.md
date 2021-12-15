@@ -5,7 +5,8 @@ Hello! This repository is where I plan to store my notes while learning Python, 
 
 Resources that I don't want to forget about:
 
-https://github.com/awesome-selfhosted/awesome-selfhosted  Self-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.
+https://github.com/awesome-selfhosted/awesome-selfhosted
+Self-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.
 This is a list of Free Software network services and web applications which can be hosted locally. Non-Free software is listed on the Non-Free page.
 
 https://github.com/vinta/awesome-python#readme
