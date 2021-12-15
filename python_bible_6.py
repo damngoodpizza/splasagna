@@ -147,3 +147,74 @@ c = 5
 d = -1
 if c > 1 or d > 1:
     print("or - It worked")
+
+# How can we combine not and or (nor)?
+c = 10
+d = 5
+if not (c > 11 or d > 6):
+    print("or - It worked again")
+
+# How can we combine and + or?
+c = 6
+d = 2
+if (c > 5 and d > 5) or (c > 1 and d > 1):
+    print("Combining and + or - It worked")
+
+# We can also utilize not in the preceding example:
+c = 6
+d = 2
+if not ((c > 5 and d > 5) or (c > 1 and d > 1)):
+    print("Combining not + and + or - It worked")
+
+
+
+# Section 7: Hold This For Me: Python Datastructures
+# ===================================================================
+
+# What Are Lists
+# -------------------------------------------------------------------
+
+# We use brackets[] to create a list.
+# Python lists can include multiple data types.
+# Python lists are iterable.
+
+our_list = [1, 2, 3, 4, 5]
+print(our_list)
+output = type(our_list)
+print(output)
+
+# How can we access a particular element?
+cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tampa"]
+print(cities[3])
+# Better yet, declare a variable
+cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tampa"]
+output = cities[2]
+print(output)
+
+# Remember that we can count from right to left:
+cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tampa"]
+output = cities[-2]
+print(output)
+
+# If you want to take out more than one element, you will need to slice.
+cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tampa"]
+output = cities[:3]
+print(output)
+
+# Python lists can contain other lists.
+another_list = [1, 2, 3, [30, 40, 50], 4, 5, 6]
+print(another_list[3])
+# NOTE: The entire nested list is in position 3.
+# What if we wanted to access a single element in our nested list?
+print(another_list[3][1])
+# The first number denotes the element in position 3 (the entire list)
+# The second number denotes the element in position 1 within the nested list.
+
+# You can slice within these as well:
+print(another_list[3][1:])
+
+
+
+our_table = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(our_table[0])
+print(our_table[1][1:])
