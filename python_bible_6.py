@@ -1,3 +1,52 @@
+word = "supercalifragilisticexpialidocious"
+print("Our word is: " + word)
+
+# Suppose we want to store the 'd' in our string to a variable.
+# We could count up from the beginning of the string like this:
+var = word[27]
+print("Counting from left to right, the element in position 27 is: " + var)
+# This function counts from the left to the right. The first
+# position is 0, so our 'd' is in the 27th position, even though
+# it is actually the 28th letter in our word.
+
+# We are also able to count in the other direction like so:
+var = word[-7]
+print("Counting from right to left, the element in the -7th position is: " + var)
+# In this example, the function counts from right to left. The
+# first position is -1, so out 'd' is in the -7th position.
+
+# We can use the index function to determine the position of
+# elements in our word.
+var = word.index("cali")
+print("The element 'cali' starts at position: " + str(var))
+# In this example, the element 'cali' starts in the 5th position.
+
+# Where does the element 'fragi' start?
+var = word.index("fragi")
+print("The element 'fragi' starts at position: " + str(var))
+
+# We can utilize the index function to return a specific portion of a string like so:
+var = word[word.index("cali"):word.index("fragi")]
+print("We used the index function to store the element [" + var + "] to a variable.")
+
+# Suppose we want to store an element that runs to the end of the string?
+var = word[word.index("docious"):]
+print("We used the index function to store the element [" + var + "] to a variable.")
+
+# NOTE: The index function only returns the first instance of the element.
+# For example, suppose that we want to store the element 'fragilistic':
+var = word[word.index("frag"):word.index("exp")]
+print("We used the index function to store the element [" + var + "] to a variable.")
+# The preceding example works. However, take the following example:
+var = word[word.index("frag"):word.index("e")]
+print("We used the index function to store the element [" + var + "] to a variable.")
+# The preceding example doesn't return the expected element. This is because
+# as we iterate along the string, we encounter an 'e' before the 'e' following
+# 'fragilistic'. We resolve this by ensuring our index is unique in the string.
+
+# NOTE: Strings are an iterable and immutable data type.
+
+
 # Section 6: If This, Then That: Logic and Conditional Flow in Python
 # ===================================================================
 
