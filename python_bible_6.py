@@ -218,3 +218,14 @@ print(another_list[3][1:])
 our_table = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(our_table[0])
 print(our_table[1][1:])
+
+# When dealing with a list, two ways we can remove an element are:
+
+cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tampa"]
+
+# The remove method, variable.remove("Atlanta")
+# NOTE: You must be able to address the specific element. If the exact element is
+# unknown, this won't work.
+print(cities)
+output = cities.remove("Atlanta")
+print(output)
