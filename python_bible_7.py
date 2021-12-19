@@ -59,3 +59,26 @@ cities = ["Atlanta", "New York", "Philadelphia", "Los Angeles", "Detroit", "Tamp
 print(cities)
 output = cities.remove("Atlanta")
 print(output)
+
+
+# Sometimes, you need to remove a certain index, or slice of indexes, from a list.
+# We can delete index zero like so:
+list = [1, 2, 3, 4, 5]
+del list[0]
+print(list)
+
+# Unlike the remove method, the del method can target a specific index:
+example = ["a", "b", "c", "a", "b"]
+print("This is our example: " + str(example))
+example.remove("a")
+print("The remove method only removes the first instance: " + str(example))
+example = ["a", "b", "c", "a", "b"]
+print("Let's revert our list: " + str(example))
+del example[3]
+print("And use del to target the second instance of 'a': " + str(example))
+
+# How would we go about deleting a slice?
+example = ["a", "b", "c", "a", "b"]
+del example[1:4]
+print("In this example, we slice 'b, c, and a' from the middle of the list" + str(example))
+
